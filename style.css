@@ -1,7 +1,6 @@
 html, body {
   margin: 0;
   padding: 0;
-  font-family: "Permanent Marker", cursive;
 }
 
 div.container {
@@ -61,7 +60,7 @@ nav li a:hover {
   border: 0;
   text-transform: uppercase;
   width: 30px;
-  height: 27px;
+  height: 29px;
 }
 
 .icon {
@@ -121,6 +120,22 @@ nav li a:hover {
   text-transform: uppercase;
 }
 
+.buttonRegister {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.buttonRegister .subscribeRegister {
+  background: #2FD5F5;
+  color: white;
+  padding: 11px;
+  margin: 0px;
+  border: 0;
+  border-radius: 5px;
+  text-transform: uppercase;
+  width: 60%;
+}
+
 .subscribeBtn {
   background: #2FD5F5;
   color: white;
@@ -128,6 +143,18 @@ nav li a:hover {
   margin: 0px;
   border: 0;
   text-transform: uppercase;
+}
+
+.subscribeBtnShow {
+  background: #a5a5a7;
+  color: white;
+  padding: 11px;
+  margin: 0px;
+  border: 0;
+  text-transform: uppercase;
+  z-index: 2;
+  position: absolute;
+  right: 35px;
 }
 
 .footer__container {
@@ -193,6 +220,46 @@ nav li a:hover {
   outline: 0 none;
   padding: 5px;
   border: 0;
+}
+
+.register__container {
+  height: 100vh;
+}
+.register__container .register__container--form {
+  position: relative;
+  width: 35%;
+  background-color: #d1d1d1;
+  margin: 0 auto;
+  top: 50px;
+  padding: 40px 10px;
+  border-radius: 41px;
+  color: white;
+  font-family: "Playfair Display", serif;
+}
+.register__container .register__container--form .form {
+  display: flex;
+  padding: 10px;
+}
+.register__container .register__container--form .form h4 {
+  margin: 10px;
+}
+.register__container .register__container--form .form input {
+  right: 35px;
+  position: absolute;
+  padding: 10px;
+  width: 50%;
+}
+.register__container .register__container--form .form__password {
+  display: flex;
+}
+.register__container .register__container--form .form__password h4 {
+  margin: 10px;
+}
+.register__container .register__container--form .form__password input {
+  right: 35px;
+  position: absolute;
+  padding: 10px;
+  width: 50%;
 }
 
 /*# sourceMappingURL=style.css.map */
