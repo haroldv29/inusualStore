@@ -1,0 +1,104 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+div.container {
+  display: grid;
+  grid-template-columns: 20% 70% 10%;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  background-color: #2FD5F5;
+
+  .nav__header {
+    display: flex;
+    justify-content: center;
+  }
+
+  ul {
+    display: flex;
+    padding: 10px;
+  }
+
+  li {
+    padding-left: 50px;
+    list-style: none;
+    font-family: 'Oswald', sans-serif;
+
+    a {
+      text-transform: uppercase;
+      color: white;
+      text-decoration: none;
+    }
+
+    a:hover{
+      color: black;
+    }
+  }
+}
+
+.container__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .container__header--image {
+    width: 150px;
+  }
+}
+
+.input {
+  outline: 0 none;
+  padding: 10px;
+  border: solid 1px gray;
+  width: 70%;
+  margin: 20px 0px 20px 20px;
+}
+
+.button {
+  background: #2FD5F5;
+  color: white;
+  padding: 5px;
+  margin: 0px;
+  border: 0;
+  text-transform: uppercase;
+  width: 30px;
+  height: 27px;
+}
+
+.icon {
+  font-size: 28px;
+}
+
+.container__hero {
+  background-image: url(./assets/images/women.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  position: relative;
+  height: 300px;
+
+  .container__hero--details {
+    position: absolute;
+    right: 50px;
+    width: 40%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 7px;
+    
+    h1 {
+      margin: 0px;
+      font-size: 100px;
+    }
+    h5 {
+      margin: 0px;
+      font-size: 42px;
+    }
+  }
+}
