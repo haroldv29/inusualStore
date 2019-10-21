@@ -145,22 +145,18 @@ nav li a:hover {
 }
 
 .Checkout {
- 
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
-  display: grid;
-  align-items: baseline;
-  flex-wrap: wrap;
-  margin-left: calc(var(--grid-column-gutter)/-2);
-  margin-right: calc(var(--grid-column-gutter)/-2);
-  width: calc(100% + var(--grid-column-gutter));
+  display: flex;
+  margin: 0px 50px 0px 0px;
+
 }
 
 .Checkout__Container-izq {
-  align-items: center;
-  flex: auto;
-  margin-bottom: 17px;
-  width: 100%;
+  justify-content: center;
+  grid-gap: 10px;
+  padding: 20px;
+
 }
 
 .Checkout__Item {
@@ -171,6 +167,7 @@ nav li a:hover {
   width: 400px;
   height: 250px;
   margin-right: 10px;
+  margin-left: 10px;
   font-size: 20px;
   cursor: pointer;
   transition: 450ms all;
@@ -187,7 +184,7 @@ nav li a:hover {
 
 .Checkout__Item--title {
   color: #030303;
-  margin: 1px 0px 0px 150px;
+  margin: 5px 5px 5px 10px;
 }
 
 /*.Checkout__Item--subtitle {
@@ -197,13 +194,11 @@ nav li a:hover {
 }*/
 
 .Checkout__Container-der {
-  align-items: center;
-  display: flex;
-  flex: auto;
-  justify-content: center;
-  margin-bottom: 17px;
-  position: relative;
-  width: 100%;
+  justify-content: left;
+  grid-gap: 10px;
+  padding: 20px;
+  
+
 }
 
 

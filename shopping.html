@@ -52,15 +52,35 @@
             </div>
             <p class="Checkout__Item--title">Vestido</p>
             <p class="Checkout__Item--title">Negro - Ref. 5881/884</p>
-            <p class="Checkout__Item--title">Talla : 48</p>
+            <!-- <p class="Checkout__Item--title">Talla : 48</p> -->
+            <span>
+                    <input type="radio" name="Talla" data-value="XS" value="XS" />
+                    <label>XS</label>
+                    <input type="radio" name="Talla" data-value="S" value="S" />
+                    <label>S</label>
+                    <input type="radio" name="Talla" data-value="M" value="M" />
+                    <label>M</label>
+                    <input type="radio" name="Talla" data-value="L" value="L" />
+                    <label>L</label>
+                    <input type="radio" name="Talla" data-value="XL" value="XL" />
+                    <label>XL</label>
+
+            </span>
+            
         </div>
         <div class="Checkout__Container-der">
-                <p class="Checkout__Item--title">Vestido</p>
-                <p class="Checkout__Item--title">Negro - Ref. 5881/884</p>
-                <p class="Checkout__Item--title">Talla : 48</p>
-                <button class="shop-cart-item__action">
-                    <h3 class="Checkout__info"> Comprar  </h3>
-                </button>
+            <div class="Checkout_Item">
+                    <p class="Checkout__Item--title">Precio sin impuestos: $99.999</p>
+                    <div><label>Cantidad: </label><input type="number" name="quantity" min="1" max="10" ></div>
+                    <p class="Checkout__Item--title">Subtotal sin IVA: $199.998</p>
+                    <p class="Checkout__Item--title">IVA: $37.999</p>
+                    <p class="Checkout__Item--title">TOTAL: $207.997</p>
+            </div>
+            <div>
+                    <button class="shop-cart-item__action">
+                            <h3 class="Checkout__info"> Comprar  </h3>
+                        </button>
+            </div>
         </div>
     </div>
     
