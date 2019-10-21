@@ -41,49 +41,45 @@
             </nav>
     </header>
               
-    <div class="main">
-        <h2 class="main__title">Carrito de compras</h2>
-    </div>
-
-    <div class="Checkout">
-        <div class="Checkout__Container-izq">
-            <div class = "Checkout__Item">
-                <img class="Checkout__Item--img" src="./assets/images/fondo2.jpg" alt=""/>
+    <div class="Main">
+            <h2 class="main__title">Forma de pago</h2>
+                
+        <section class="FormaPago">
+            <div class="Pagos">
+                <img class="Pago-item_img" src="./assets/images/TC_Logo.png" alt=""/></div>
+            <div class="Pagos">
+                <img class="Pago-item_img" src="./assets/images/PayPal_Logo.png" alt=""/></div>
+            <div class="Pagos">
+                <img class="Pago-item_img" src="./assets/images/BotonPSE.png" alt=""/>
             </div>
-            <p class="Checkout__Item--title">Vestido</p>
-            <p class="Checkout__Item--title">Negro - Ref. 5881/884</p>
-            <!-- <p class="Checkout__Item--title">Talla : 48</p> -->
-            <span>
-                    <input type="radio" name="Talla" data-value="XS" value="XS" />
-                    <label>XS</label>
-                    <input type="radio" name="Talla" data-value="S" value="S" />
-                    <label>S</label>
-                    <input type="radio" name="Talla" data-value="M" value="M" />
-                    <label>M</label>
-                    <input type="radio" name="Talla" data-value="L" value="L" />
-                    <label>L</label>
-                    <input type="radio" name="Talla" data-value="XL" value="XL" />
-                    <label>XL</label>
-
-            </span>
+        </section>
             
+        <div class="Main">
+            <h2 class="main__title">Formulario tarjeta de crédito</h2>
+
+            <form class="Checkout__Container-izq" action="/action_page.php">
+                Nombre en la Tarjeta:<br>
+                <input type="text" name="Nombre_Tarjeta"><br>
+                Número de la tarjeta:<br>
+                <input type="text" name="Num_Tarjeta" ><br>
+                Fecha de expiración (MM/YYYY):<br>
+                <input type="number" name="Mes_Exp" min="1" max="12">
+                <input type="number" name="Año_Exp" min="2019" max="2026"><br>
+                CVV:<br>
+                <input type="number" name="CVV" min="001" max="999"><br><br>
+                <input type="submit" value="Submit">
+              </form>
         </div>
-        <div class="Checkout__Container-der">
-            <div class="Checkout_Item">
-                    <p class="Checkout__Item--title">Precio sin impuestos: $99.999</p>
-                    <div><label>Cantidad: </label><input type="number" name="quantity" min="1" max="10" ></div>
-                    <p class="Checkout__Item--title">Subtotal sin IVA: $199.998</p>
-                    <p class="Checkout__Item--title">IVA: $37.999</p>
-                    <p class="Checkout__Item--title">TOTAL: $207.997</p>
-            </div>
-            <div>
-                    <button class="shop-cart-item__action">
-                            <h3 class="Checkout__info"> Agregar a carrito</h3>
-                        </button>
-            </div>
+        
+        <div class="Main">
+            <h2 class="main__title">Redireccionar a Paypal</h2>
         </div>
-    </div>
-    
+        <div class="Main">
+            <h2 class="main__title">Redireccionar a PSE</h2>
+        </div>
+
+
+    </div>   
 </body>
 
 

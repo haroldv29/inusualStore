@@ -41,49 +41,32 @@
             </nav>
     </header>
               
-    <div class="main">
-        <h2 class="main__title">Carrito de compras</h2>
-    </div>
-
-    <div class="Checkout">
-        <div class="Checkout__Container-izq">
-            <div class = "Checkout__Item">
-                <img class="Checkout__Item--img" src="./assets/images/fondo2.jpg" alt=""/>
+    <div class="Main">
+        <div class="ListaCompras">
+            <div class="Checkout__Container-izq">
+                <h3>Lista de Pedidos:</h3>
+                <div class="Checkout__Item2">
+                    <div class="Checkout-element">
+                        <h4>Vestido Negro - Ref. 5881/884</h4><span>$207.997</span>
+                    </div>
+                </div>
+                <div class="Checkout__Item2">
+                    <div class="Checkout-element">
+                        <h4>Vestido Rojo - Ref. 5741/654</h4><span>$359.997</span>
+                    </div>
+                </div>
             </div>
-            <p class="Checkout__Item--title">Vestido</p>
-            <p class="Checkout__Item--title">Negro - Ref. 5881/884</p>
-            <!-- <p class="Checkout__Item--title">Talla : 48</p> -->
-            <span>
-                    <input type="radio" name="Talla" data-value="XS" value="XS" />
-                    <label>XS</label>
-                    <input type="radio" name="Talla" data-value="S" value="S" />
-                    <label>S</label>
-                    <input type="radio" name="Talla" data-value="M" value="M" />
-                    <label>M</label>
-                    <input type="radio" name="Talla" data-value="L" value="L" />
-                    <label>L</label>
-                    <input type="radio" name="Talla" data-value="XL" value="XL" />
-                    <label>XL</label>
-
-            </span>
-            
-        </div>
-        <div class="Checkout__Container-der">
-            <div class="Checkout_Item">
-                    <p class="Checkout__Item--title">Precio sin impuestos: $99.999</p>
-                    <div><label>Cantidad: </label><input type="number" name="quantity" min="1" max="10" ></div>
-                    <p class="Checkout__Item--title">Subtotal sin IVA: $199.998</p>
-                    <p class="Checkout__Item--title">IVA: $37.999</p>
-                    <p class="Checkout__Item--title">TOTAL: $207.997</p>
-            </div>
-            <div>
-                    <button class="shop-cart-item__action">
-                            <h3 class="Checkout__info"> Agregar a carrito</h3>
-                        </button>
+            <div class="Checkout__Container-der">
+                <h3>Precio Total:</h3>
+                <h4>$</h4>
             </div>
         </div>
-    </div>
-    
+        <div>
+            <button class="shop-cart-item__action">
+                <h3 class="Checkout__info"> Finalizar Compra</h3>
+            </button>
+        </div>
+    </div>   
 </body>
 
 
